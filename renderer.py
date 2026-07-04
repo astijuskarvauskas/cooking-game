@@ -8,7 +8,7 @@ class Renderer:
         self.dt = dt
 
     def draw_player(self, player):
-        pygame.draw.circle(self.surface, player.color, (player.x, player.y), player._radius) #np.
+        pygame.draw.circle(self.surface, player.color, (player.x, player.y), player.radius)
 
     def draw_tile(self, tile):
         default_color = (255, 255, 255)
